@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background: rgb(34, 63, 66);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cal {
+  width: 350px;
+  height: 500px;
+  box-shadow: 4px 4px 20px black;
+  border-radius: 10px;
+  background: #22252d;
+  overflow: hidden;
+}
+
+form input {
+  width: 100%;
+  height: 170px;
+  background-color: black;
+  pointer-events: none;
+  border: none;
+  padding: 1rem;
+  font-size: 30px;
+  color: white;
+  text-align: right;
+  border-radius: 12px;
+}
+
+button {
+  width: 70px;
+  height: 50px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 5px 0;
+  border: 1px solid black;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+}
+.buttons_one,
+.buttons_two,
+.buttons_three,
+.buttons_four {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttons .buttons_three i, .buttons .buttons_four i, .buttons .buttons_two i{
+  pointer-events: none;
+  font-size: 20px;
+}
+
+.btn-yellow {
+  background-color: orange;
+  color: white;
+}
+
+.btn-grey {
+  background-color: grey;
+}
+
+.btn-equal {
+  background-color: green;
+}
+.btn-clear {
+  background-color: red;
+}
+.btn-delete {
+  background-color: #565b2f;
+}
+.btn,
+.btn-equal {
+  user-select: none;
+}
+
+.plus {
+  height: 57%;
+  font-size: 30px;
+}
+.minus{
+  font-size: 30px;
+}

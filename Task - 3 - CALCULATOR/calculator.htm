@@ -1,0 +1,58 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="cal">
+      <form>
+        <input type="text" class="screen" />
+      </form>
+      <div class="buttons">
+        <div class="buttons_one">
+          <button type="button" class="btn btn-clear">c</button>
+          <button type="button" class="btn btn-grey" data-num="9">9</button>
+          <button type="button" class="btn btn-grey" data-num="6">6</button>
+          <button type="button" class="btn btn-grey" data-num="3">3</button>
+          <button type="button" class="btn btn-grey" data-num=".">.</button>
+        </div>
+        <div class="buttons_two">
+          <button type="button" class="btn-yellow">
+            <i class="fa-solid fa-arrow-left"></i>
+          </button>
+          <button type="button" class="btn btn-grey" data-num="8">8</button>
+          <button type="button" class="btn btn-grey" data-num="5">5</button>
+          <button type="button" class="btn btn-grey" data-num="2">2</button>
+          <button type="button" class="btn btn-grey" data-num="0">0</button>
+        </div>
+        <div class="buttons_three">
+          <button type="button" class="btn btn-yellow" data-num="*">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <button type="button" class="btn btn-grey" data-num="7">7</button>
+          <button type="button" class="btn btn-grey" data-num="4">4</button>
+          <button type="button" class="btn btn-grey" data-num="1">1</button>
+          <button type="button" class="btn-equal">=</button>
+        </div>
+        <div class="buttons_four">
+          <button type="button" class="btn btn-yellow" data-num="/">
+            <i class="fa-solid fa-divide"></i>
+          </button>
+          <button type="button" class="btn btn-yellow minus" data-num="-">-</button>
+          <button type="button" class="btn btn-yellow plus" data-num="+">
+            +
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <script src="scrip.js"></script>
+  </body>
+</html>
